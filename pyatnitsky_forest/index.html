@@ -377,45 +377,73 @@
 				</div>
 			</section>
 
+			<section id="quest-work" class="quest-work">
+				<div class="_container">
+					<div class="quest-work__block-bg _bgi d-flex">
+						<div class="quest-work__img">
+							<img src="img/vacancies.png" alt="">
+						</div>
+						<div class="quest-work__title-block">
+							<h2>Хотите работать с нами?</h2>
+							<a href="#" class="quest-work__btn btn">Смотреть все вакансии</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="consult-sec" class="consult-sec">
+				<div class="_container">
+					<div class="consult-sec__row d-flex">
+						<div class="consult-sec__title-block d-flex">
+							<h2>Нужна <br> консультация?</h2>
+							<p>
+								Подробно расскажем о нашем коттеджном поселке, ходе строительства, проектах коттеджей и таунхаусов, ознакомим 
+								с инфраструктурой и предложим самое выгодное предложение.
+							</p>
+						</div>
+						<a href="#" class="consult-sec__btn btn">Задать вопрос</a>
+					</div>
+				</div>
+			</section>
+
 		</main>
 		<footer id="footer" class="footer">
 	<div class="footer__container _container">
 
 		<div class="footer__row d-flex">
 
-			<a href="#" class="footer__logo logo-icon">
-				<p>Название <span>текст logo</span></p>
-			</a>
-
-			<ul class="footer__menu">
-				<li><a href="#" class="menu__link">Пункт 1</a></li>
-				<li><a href="#" class="menu__link">Пункт 2</a></li>
-				<li><a href="#" class="menu__link">Пункт 3</a></li>
-				<li><a href="#" class="menu__link">Пункт 4</a></li>
-				<li><a href="#" class="menu__link">Пункт 5</a></li>
-			</ul>
-
-			<div class="footer__contact">
-				<div class="header__callback d-flex">
-					<a href="tel:84951700000">8 (495) 170-00-00</a>
-					<p>Звонить с 08:00 до 22:00</p>
+			<div class="footer__policy">
+				<p>© 2021 Все права защищены</p>
+				<div class="footer__social d-flex">
+					<a href="#" class="footer__social-icon social-icon-01"></a>
+					<a href="#" class="footer__social-icon social-icon-02"></a>
 				</div>
-
-				<p class="footer__policy">
-					Заполняя и отправляя данную форму Вы соглашаетесь <br>
-					с условиями политики конфиденциальности и <br>
-					обработки персональных данных
-				</p>
 			</div>
 
-			<form class="footer__form" action="#">
-				<h3>Форма обратной связи</h3>
-				<input id="name" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Ваше имя"
-					class="footer__form-input input _req">
-				<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Ваш телефон"
-					class="footer__form-input input _phone _req">
-				<button type="submit" class="footer__form-btn btn">Записаться на прием</button>
-			</form>
+			<ul class="footer__menu footer__menu_left">
+				<li><a href="#" class="menu__link">Типовые проекты</a></li> 
+				<li><a href="#" class="menu__link">Квадро</a></li>
+				<li><a href="#" class="menu__link">Коттедж 1</a></li>
+				<li><a href="#" class="menu__link">Коттедж 2</a></li>
+				<li><a href="#" class="menu__link">Усадьба</a></li> 
+			</ul>
+
+			<ul class="footer__menu footer__menu_right">
+				<li><a href="#" class="menu__link">О проекте</a></li> 
+				<li><a href="#" class="menu__link">Дома</a></li>
+				<li><a href="#" class="menu__link">Галерея</a></li>
+				<li><a href="#" class="menu__link">Наша команда</a></li>
+				<li><a href="#" class="menu__link">Как добраться</a></li> 
+				<li><a href="#" class="menu__link">Контакты</a></li> 
+			</ul>
+
+			<div class="footer__contacts d-flex">
+				<a href="tel:+7(4712)543488" class="footer__phone">+7 (4712) 54-34-88</a>
+				<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="footer__phone"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
+				<a href="#callback" class="footer__callback _popup-link">Заказать звонок</a>
+				<p class="footer__address">Курск, ул. 50 лет Октября, д. 100</p>
+				<a href="tel:+7(495)1234567" class="footer__email">info@forestsea.ru</a>
+			</div>
 
 		</div>
 

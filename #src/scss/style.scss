@@ -515,6 +515,83 @@ h4 {
   width: 145px;
   margin: 35px auto 0 auto;
 }
+//===================================================================================================================================
+
+.quest-work {
+	padding: 95px 0 65px 0;
+}
+
+.quest-work__block-bg {
+	padding-left: 220px;
+	height: 350px;
+	background-image: url('../img/vacancies-bg.jpg');
+}
+
+.quest-work__img {
+	flex: 0 1 359px;
+	height: 453px;
+	overflow: hidden;
+	margin-top: -103px;
+	margin-right: 55px;
+}
+
+.quest-work__title-block {
+	margin-top: 70px;
+	h2 {
+		color: #222222;
+	}
+}
+
+.quest-work__btn {
+	margin-top: 15px;
+}
+//===================================================================================================================================
+
+.consult-sec {
+	padding: 30px 0;
+	background-color: #5baa00;
+}
+
+._container {}
+
+.consult-sec__row {
+	color: #fff;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.consult-sec__title-block {
+	flex: 0 1 900px;
+	justify-content: space-between;
+	align-items: center;
+	h2 {
+		display: flex;
+    align-items: center;
+		&:after {
+			content: '';
+			float: right;
+			width: 25px;
+			height: 45px;
+			margin: 0 25px 0 70px;
+			background-size: 100%;
+			background-position: 0 0;
+			background-repeat: no-repeat;
+      background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDggMTIiPg0KICA8aW1hZ2UgaWQ9ImNoZXZyb24tcmlnaHQiIHdpZHRoPSI4IiBoZWlnaHQ9IjEyIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFnQUFBQU1DQVlBQUFCZm52eWRBQUFBQkhOQ1NWUUlDQWdJZkFoa2lBQUFBRXRKUkVGVUdGZGovUC8vUHdNUWRBQXhQeEJuQVRGWUFBWVlnUW9zZ0p6alVJRVo2SXBBQ2tCeW1VQThEWnNpbUFLY2lwQVZZRldFcmdCREVja0tNQnhMdENQeGVwT29nTUlaMUFEcjlVRVpZdlZ1b3dBQUFBQkpSVTVFcmtKZ2dnPT0iLz4NCjwvc3ZnPg0K');
+		}
+	}
+	p {
+		flex: 0 1 615px;
+		font-size: 14px;
+		line-height: 1.2;
+		font-weight: 300;
+		opacity: 0.7;
+	}
+}
+
+.consult-sec__btn {
+	border: 1px solid #fff;
+}
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 //<Адаптив>===========================================================================================================================================
