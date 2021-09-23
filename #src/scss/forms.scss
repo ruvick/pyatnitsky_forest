@@ -19,20 +19,20 @@
 //</FORM>====================================================================================================
 
 //<BUTTONS (a.btn+tab)>====================================================================================================
-.btn{
+.btn {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	padding: 6px 8px;
-	min-width: 144px;
-	min-height: 36px;
-	font-family: 'Lato';
+	min-width: 145px;
+	min-height: 32px;
+	// font-family: 'Lato';
 	font-size: 12px;
-	font-weight: 400;
-	color: #000;
-	background: #FFE417;
-	border-radius: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 2px;
+	background: #5baa00;
 	&:hover{}
 	&.fw{width: 100%;}  
 }

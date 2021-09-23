@@ -3,4 +3,5 @@
 @@include('files/functions.js', {})
 @@include('files/script.js', {})
 @@include('files/forms.js', {})
+@@include('files/map.js', {})
 @@include('files/scroll.js', {})
