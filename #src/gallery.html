@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+	"title":"Галерея"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('_header.html',{})
+		<main class="page">
+
+			<section id="page-recurring" class="page-recurring">
+				<div class="_container">
+
+					<p id="breadcrumbs"> 
+						<span>
+							<span>
+								<a href="#">
+									Главная
+								</a> -
+								<span class="breadcrumb_last" aria-current="page">
+									Галерея
+								</span>
+							</span>
+						</span>
+					</p>
+
+					<h1>Галерея</h1>
+
+					<div class="gallery-project__row d-flex">
+						<div class="gallery-project__col gallery-project__col_left">
+							<div class="gallery-project__img-big">
+								<img src="img/gallery-project/01.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery-project__col d-flex">
+							<div class="gallery-project__img">
+								<img src="img/gallery-project/02.jpg" alt="">
+							</div>
+							<div class="gallery-project__img">
+								<img src="img/gallery-project/03.jpg" alt="">
+							</div>
+							<div class="gallery-project__img">
+								<img src="img/gallery-project/04.jpg" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="gallery-project__row d-flex">
+						<div class="gallery-project__col d-flex">
+							<div class="gallery-project__img">
+								<img src="img/gallery-project/02.jpg" alt="">
+							</div>
+							<div class="gallery-project__img">
+								<img src="img/gallery-project/03.jpg" alt="">
+							</div>
+							<div class="gallery-project__img">
+								<img src="img/gallery-project/04.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery-project__col gallery-project__col_left gallery-project__col_left_mirro">
+							<div class="gallery-project__img-big">
+								<img src="img/gallery-project/01.jpg" alt="">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section id="follow-sec" class="follow-sec-page follow-sec">
+				<div class="_container">
+					<div class="follow-sec__bg d-flex">
+						<div class="follow-sec__img-tel">
+							<img src="img/instagram/01.png" alt="">
+						</div>
+						<div class="follow-sec__title">
+							<h2>Следите за нашим проектом в Instagram</h2>
+							<a href="#" class="follow-sec__link"></a>
+						</div>
+						<div class="follow-sec__img-house">
+							<img src="img/instagram/02.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		@@include('_footer.html',{})
+	</div>
+	@@include('_popup.html',{})
+	@@include('_js.html',{})
+</body>
+
+</html>

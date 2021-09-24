@@ -3501,6 +3501,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .page-recurring h1,
 .page-recurring h2 {
+  color: #222222;
   margin-bottom: 13px;
 }
 
@@ -3693,6 +3694,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .gallery-project__btn {
   margin-top: 30px;
+}
+
+.page-recurring .gallery-project__row {
+  margin-bottom: 30px;
+}
+.page-recurring .gallery-project__row:last-child {
+  margin-bottom: 0;
+}
+
+.gallery-project__col_left_mirro {
+  margin-left: 30px;
+  margin-right: 0px;
 }
 
 .follow-sec {
