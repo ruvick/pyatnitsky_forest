@@ -227,12 +227,13 @@ h4 {
 //===================================================================================================================================
 
 .house-types {
-	padding: 65px 0;
+	padding: 65px 0 40px 0;
 	background-color: #f7f7f8;
 }
 
 .house-types__row {
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .house-card {
@@ -243,6 +244,7 @@ h4 {
 		flex: 0 1 23.3%;
 		background: #fff;
 		padding-bottom: 25px;
+		margin-bottom: 25px;
 	}
 	&__img {
 		flex: 0 1 288px;
@@ -424,6 +426,7 @@ h4 {
 
 .team__row {
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .team-card {
@@ -436,6 +439,7 @@ h4 {
 		background: #fff;
 		border: 1px solid #e7ebee;
 		border-radius: 2px;
+		margin-bottom: 30px;
 	}
 	&__img {
 		flex: 0 1 288px;
@@ -513,7 +517,7 @@ h4 {
 .team__btn {
 	display: block;
   width: 145px;
-  margin: 35px auto 0 auto;
+  margin: 0 auto;
 }
 //===================================================================================================================================
 

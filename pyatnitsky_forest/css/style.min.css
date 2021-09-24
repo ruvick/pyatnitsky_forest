@@ -2993,7 +2993,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 .header__callback a {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1;
   font-weight: 500;
   color: #222222;
 }
@@ -3474,12 +3474,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .house-types {
-  padding: 65px 0;
+  padding: 65px 0 40px 0;
   background-color: #f7f7f8;
 }
 
 .house-types__row {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .house-card {
@@ -3490,6 +3491,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   flex: 0 1 23.3%;
   background: #fff;
   padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 .house-card__img {
   flex: 0 1 288px;
@@ -3658,6 +3660,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .team__row {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .team-card {
@@ -3670,6 +3673,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background: #fff;
   border: 1px solid #e7ebee;
   border-radius: 2px;
+  margin-bottom: 30px;
 }
 .team-card__img {
   flex: 0 1 288px;
@@ -3745,7 +3749,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .team__btn {
   display: block;
   width: 145px;
-  margin: 35px auto 0 auto;
+  margin: 0 auto;
 }
 
 .quest-work {
