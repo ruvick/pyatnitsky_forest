@@ -2,12 +2,18 @@
 
 // Общий класс главной обертки
 .page-recurring {
-  padding-bottom: 150px;}
+  padding: 25px 0 40px 0;
+  background-color: #f7f7f8;}
+
+.page-recurring h1,
+.page-recurring h2 {
+  margin-bottom: 13px;
+}
 
 // Общий класс для страниц
-.recurring {
-  padding-top: 27px;}
-.recurring h1,
-.recurring h2 {
-  margin-bottom: 28px;}
+// .recurring {
+//   padding-top: 27px;}
+// .recurring h1,
+// .recurring h2 {
+//   margin-bottom: 28px;}
 //=============================================================================================================================
