@@ -63,19 +63,19 @@ function sliders_bild_callback(params) { }
 
 // Сюда пишем класс нашего слайдера и меняем переменную
 let slider = new Swiper('.slider-index', {
-	/*
-	effect: 'fade',
+	
+	// effect: 'fade',
 	autoplay: {
 		delay: 3000,
 		disableOnInteraction: false,
 	},
-	*/
+	
 	observer: true,
 	observeParents: true,
 	slidesPerView: 1,
 	spaceBetween: 0,
 	autoHeight: true,
-	speed: 800,
+	speed: 1300,
 	//touchRatio: 0,
 	//simulateTouch: false,
 	//loop: true,
