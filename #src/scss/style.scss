@@ -150,11 +150,13 @@ h4 {
 
 }
 
-._swiper {}
+._swiper {
+  position: relative;
+}
 
 .slider-index__slide {
 	padding: 130px 0 180px 0;
-	// background-position: center;
+	background-position: center !important;
 	background-image: url('../img/slider-index.jpg');
 	h1 {
 		color: #fff;
@@ -396,7 +398,7 @@ h4 {
 .follow-sec__link {
 	display: flex;
 	justify-content: center;
-  align-items: center;
+  	align-items: center;
 	width: 60px;
 	height: 60px;
 	background-color: #5baa00;

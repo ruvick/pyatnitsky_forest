@@ -75,10 +75,10 @@ let slider = new Swiper('.slider-index', {
 	slidesPerView: 1,
 	spaceBetween: 0,
 	autoHeight: true,
-	speed: 1300,
+	speed: 2000,
 	//touchRatio: 0,
 	//simulateTouch: false,
-	//loop: true,
+	loop: true,
 	//preloadImages: false,
 	//lazy: true,
 	// Dotts
@@ -88,8 +88,8 @@ let slider = new Swiper('.slider-index', {
 	//},
 	// Arrows
 	navigation: {
-		nextEl: '.about__more .more__item_next',
-		prevEl: '.about__more .more__item_prev',
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
 	},
 	/*
 	breakpoints: {
