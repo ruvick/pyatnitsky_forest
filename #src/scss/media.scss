@@ -15,6 +15,8 @@
   .gallery-project__img {
     flex: 0 1 49.5%;
     margin-bottom: 10px;}
+  .team-card__body {
+    flex: 0 1 24%;}
 }
 
 @media (max-width: 1100px) {
@@ -70,6 +72,15 @@
   .dignity__descp p {
     font-size: 12px;
     line-height: 1;}
+  .team__row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: auto;}
+  .team-card__body {
+    flex: 0 0 245px;
+    margin-right: 15px;}
+   .team-card__body:last-child {
+    margin-right: 0;}
 }
 
 @media (max-width: 860px) {
@@ -178,6 +189,32 @@
   .gallery-project__img {
     flex: 0 1 49%;
     height: 185px;}
+  .team-card__img {
+    max-height: 200px;}
+  .team-card__img img {
+    height: auto;}
+  .team-card__text {
+    padding: 10px 15px 10px 15px;}
+  .team-card__contact {
+    padding: 0 15px 0 15px;}
+  .team-card__text h3 {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 5px;}
+  .team-card__descp {
+    font-size: 13px;
+    line-height: 1;}
+  .team-card__line {
+    margin-bottom: 10px;}
+  .team-card__tel {
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 3px;}
+  .team-card__email {
+    font-size: 14px;
+    line-height: 1.2;}
+  .index-map__map {
+    height: 350px;}
 }
 
 @media (max-width: 700px) {
@@ -196,6 +233,8 @@
 		padding: 35px 15px;}
 	.gallery-project__col_left {
     flex: 0 1 80%;}
+  .team-card__body {
+    flex: 0 0 215px;}
 }
 
 @media (max-width: 540px) {
@@ -223,6 +262,8 @@
   	display: none;}
   .about-project p {
   	text-align: justify;}
+ 	.index-map__map {
+    height: 250px;}
 }
 
 @media (max-width: 480px) {
