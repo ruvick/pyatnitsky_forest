@@ -4158,6 +4158,23 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     font-size: 14px;
     padding: 3px 15px 3px 0;
   }
+
+  .dignity__img {
+    flex: 0 0 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+
+  .dignity__descp h6 {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 3px;
+  }
+
+  .dignity__descp p {
+    font-size: 12px;
+    line-height: 1;
+  }
 }
 @media (max-width: 860px) {
   .logo-icon {
@@ -4241,6 +4258,38 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 
   .swiper-button {
+    display: none;
+  }
+
+  .dignity {
+    padding: 15px 0;
+  }
+
+  .dignity__row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: auto;
+  }
+
+  .dignity__item {
+    flex: 0 0 245px;
+  }
+
+  .dignity__img {
+    flex: 0 0 60px;
+    height: 60px;
+    margin-right: 8px;
+  }
+
+  .dignity__descp h6 {
+    font-size: 13px;
+  }
+
+  .dignity__descp p {
+    font-size: 12px;
+  }
+
+  ::-webkit-scrollbar {
     display: none;
   }
 }
