@@ -8,6 +8,13 @@
 @media (max-width: 1200px) {
   .house-card__body {
     flex: 0 1 24%;}
+  .gallery-project__col {
+    height: 590px;}
+  .gallery-project__col_left {
+    margin-right: 10px;}
+  .gallery-project__img {
+    flex: 0 1 49.5%;
+    margin-bottom: 10px;}
 }
 
 @media (max-width: 1100px) {
@@ -164,6 +171,13 @@
   .house-card__price-old {
     font-size: 12px;
     line-height: 1;}
+  .gallery-project__col_left {
+    flex: 0 1 60%;}
+  .gallery-project__col {
+    height: 380px;}
+  .gallery-project__img {
+    flex: 0 1 49%;
+    height: 185px;}
 }
 
 @media (max-width: 700px) {
@@ -180,6 +194,20 @@
     flex: 0 1 43%;}
 	.popup__form-block {
 		padding: 35px 15px;}
+	.gallery-project__col_left {
+    flex: 0 1 80%;}
+}
+
+@media (max-width: 540px) {
+	.gallery-project__col_left {
+    flex: 0 1 63%;
+    margin-right: 5px;}
+  .gallery-project__col {
+    height: 265px;}
+  .gallery-project__img {
+    flex: 0 1 49.3%;
+    height: 130px;
+    margin-bottom: 5px;}
 }
 
 @media (max-width: 515px) {
@@ -216,4 +244,31 @@
 	.search__input {
     border-radius: 0 !important;
 	}
+}
+
+@media (max-width: 460px) {
+	.gallery-project__col_left {
+    flex: 0 1 85%;}
+  .gallery-project__img {
+    flex: 0 1 49%;}
+  .gallery-project__btn {
+    margin-top: 20px;}
+}
+
+@media (max-width: 375px) {
+	.gallery-project__col {
+    height: 245px;}
+	.gallery-project__col_left {
+    flex: 0 1 100%;}
+  .gallery-project__img {
+    height: 120px;}
+}
+
+@media (max-width: 340px) {
+	.gallery-project__col {
+    height: 205px;}
+	.gallery-project__col_left {
+    flex: 0 1 120%;}
+  .gallery-project__img {
+    height: 100px;}
 }
